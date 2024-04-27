@@ -1,8 +1,10 @@
-import { ChangeEvent, useEffect, useState } from "react";
-import { Data } from "../types";
-import { searchData } from "../services/search";
-import { toast } from "sonner";
 import { useDebounce } from "@uidotdev/usehooks";
+import { ChangeEvent, useEffect, useState } from "react";
+import { toast } from "sonner";
+
+import { searchData } from "../services/search";
+import { Data } from "../types";
+
 interface Props {
   initialData: Data;
 }
