@@ -3,7 +3,7 @@ import "./App.css";
 import { uploadFile } from "./services/upload";
 import { Toaster, toast } from "sonner";
 import { Data } from "./types";
-import Search from './steps/Search';
+import Search from './components/Search';
 
 const APP_STATUS = {
   IDLE: "idle",
